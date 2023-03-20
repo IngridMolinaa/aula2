@@ -1,5 +1,8 @@
 # instalar é configurar o angular
 
+git config --system --unset credential.helper
+git config --global user.email "emely.rodrigues@estudante.ifms.edu.br"
+git config --global user.name  "nome"
 git status - verificar a cituaça da app
 
 
@@ -9,4 +12,13 @@ ng new nome-do-projeto
 
 2 rodar / subir o projeto (precisa estar dentro da pagina do projeto)
 
--ng serve -o
+ng serve -o
+
+git clone (copiar o projeto remoto para o local) (npm install)
+
+git push (enviar para o github)
+
+display flex- coloca tudo na mesma linha 
+
+justify-content - alinha todo mundo no eixo horizontal
+align-items- alinha todo mundo no eixo vertical

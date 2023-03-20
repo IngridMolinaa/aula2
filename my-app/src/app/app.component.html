@@ -1,17 +1,23 @@
 <div class="container">
-<h2> Meu projeto angular </h2>
+    <h2> Meu projeto angular </h2>
 
-<h3>Nome</h3>
-<p>Meu nome é emely</p>
+<h3>{{ nome }}</h3>
+    <ul>
+        <li>Ler livros</li>
+        <li>Escultar musica</li>
 
-<ul>
-    <li>Ler livros</li>
-    <li>Escultar musica</li>
+    </ul>
 
-</ul>
+    <img src="/assets/foto.jpg" class="img" />
 
-<h3></h3>
+    <h3>{{ nome }}</h3>
 
-<img src="/assets/foto.jpg" class="img"/>
+    <div class="exercicio">
+        <input type="button" value="-" (click)="menos()"/>
+        <h3>{{count}}</h3>
+
+        <input type="button" value="+" (click)="mais()"/>
+      
+    </div>
+
 </div>
-
