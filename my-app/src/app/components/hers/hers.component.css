@@ -1,0 +1,10 @@
+.container {
+    background: rgb(151, 202, 198);
+    height: 100px;
+}
+
+.container .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
